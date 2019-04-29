@@ -21,7 +21,7 @@ class Log_in_page():
         log_in_header = driver.find_element_by_css_selector (".last.leaf.login-button")
         log_in_header.click()
     
-    def enter_password_and_login(self):
+    def enter_password_and_username(self):
         driver = webdriver.Chrome('C:\dev1\week5\chromedriver.exe')
         driver.get("https://demo.nadex.com/login")  
         user_name = driver.find_element_by_id ("account_id")
