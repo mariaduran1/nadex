@@ -15,7 +15,7 @@ class Test_login(unittest.TestCase):
     def test_login(self):
         log_in_page = Log_in_page()
         log_in_page.navigate_login()
-        log_in_page. enter_password_and_login()
+        log_in_page. enter_password_and_username()
         
         #self.assertIsNotNone
 
